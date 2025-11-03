@@ -55,7 +55,7 @@ Resources:
 ```
 Esses dois blocos criam um bucket S3 e uma função Lambda automaticamente.
 
-### **3️⃣ Dependências**
+### **4️⃣ Dependências**
 Para garantir que os recursos sejam criados na ordem correta, é possível usar DependsOn.
 No projeto, o S3 depende da permissão da Lambda (LambdaInvokePermission).
 
@@ -96,3 +96,13 @@ Isso evita erros de referência durante a execução da stack.
 ```bash
 aws cloudformation validate-template --template-body file://template.yaml
 ```
+## ✅ Conclusão
+
+O **AWS CloudFormation** é essencial para construir **infraestruturas modernas e escaláveis** na nuvem.  
+No projeto da **DIO**, ele foi responsável por **provisionar automaticamente** todos os recursos necessários, eliminando configurações manuais e garantindo **agilidade**, **segurança** e **reprodutibilidade** da solução.
+
+---
+
+📝 **Anotação criada por:** Lorena Cardoso Sanches  
+🎓 **Formação:** AWS Cloud Foundations – DIO & Santander Code Girls  
+📅 **Ano:** 2025

@@ -133,11 +133,12 @@ Resources:
 
 | Etapa | Descrição | Imagem |
 |-------|------------|--------|
-| 1️⃣ | Upload do modelo `template.yaml` no AWS CloudFormation. | |
-| 2️⃣ | Definição do nome da pilha (`desafio-final-dio`). | |
-| 3️⃣ | Processo de criação em andamento. | |
-| 4️⃣ | Stack criada com sucesso — todos os recursos com status **CREATE_COMPLETE**. | |
-| ☁️ | Arquitetura final implementada (S3 → Lambda → CloudWatch Logs). | |
+| 1️⃣ | Upload do modelo `template.yaml` no AWS CloudFormation. | ![Upload Template](images/01-cloudformation-upload-template.png) |
+| 2️⃣ | Definição do nome da pilha (`desafio-final-dio`). | ![Nome da Pilha](images/02-cloudformation-nome-da-pilha.png) |
+| 3️⃣ | Processo de criação em andamento. | ![Criação em Andamento](images/03-cloudformation-criacao-em-andamento.png) |
+| 4️⃣ | Stack criada com sucesso — todos os recursos com status **CREATE_COMPLETE**. | ![Stack Completa](images/04-cloudformation-stack-completa.png) |
+| ☁️ | Arquitetura final implementada (S3 → Lambda → CloudWatch Logs). | ![Arquitetura](images/arquitetura-s3-lambda.png) |
+
 
 ---
 
@@ -157,8 +158,9 @@ A stack foi implementada com sucesso via **CloudFormation**, demonstrando automa
 
 ---
 
-## ✨ Autora 
-**Lorena Cardoso Sanches** 
-Formação **AWS Cloud Foundations – DIO & Santander Code Girls** 
-📍 São Bernardo do Campo – SP 
+## ✨ Autora
+
+**Lorena Cardoso Sanches**  
+Formação **AWS Cloud Foundations – DIO & Santander Code Girls**  
+📍 São Bernardo do Campo – SP  
 🔗 [linkedin.com/in/lorenacardososanches](https://www.linkedin.com/in/lorenacardososanches)
